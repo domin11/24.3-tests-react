@@ -27,7 +27,7 @@ it('ckeck correct number of players', () => {
   expect(expectedPlayersNumber).toEqual(2);
 });
 
-it('check correct number of players', () => {
+it('score should be change', () => {
   const players = [
     {
       name: 'Kunegunda',

@@ -42,7 +42,7 @@ class App extends Component {
    return (
      <div className="App">
        <AddPlayer onPlayerAdd={this.onPlayerAdd} />
-       <PlayersList players={this.state.players} onScoreUpdate={this.onScoreUpdate}/>
+       <PlayersList players={this.state.players} onScoreUpdate={this.onScoreUpdate} onPlayerRemove={this.onPlayerRemove}/>
      </div>
    );
   }
